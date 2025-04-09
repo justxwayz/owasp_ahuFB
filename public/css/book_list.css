@@ -1,0 +1,129 @@
+.book-section {
+    position: relative;
+}
+
+#book-body {
+    background-image: url('../../img/fondB1.png');
+    background-repeat: repeat;
+    background-size: auto;
+    background-color: #cfb193;
+}
+
+.book-first-zone {
+    background-image: url('../../img/fond1.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    height: 40vh;
+    border-bottom: solid 10px #a79680;
+}
+
+.book-slogan {
+    position: relative;
+    margin-left: 10rem;
+    width: 50%;
+}
+
+.book-slogan h1 {
+    font-family: "League Spartan", serif;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.2;
+    text-shadow: 2px 1.5px #332f2f;
+    color: #e7ded0;
+}
+
+.book-slogan-image {
+    max-width: 250px;
+    height: auto;
+    margin-right: 10%;
+}
+
+.container-books {
+    padding: 10px;
+    background-color: #2a1f1a;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    width: 100%;
+    max-width: 1000px;
+    margin: 30px auto;
+    font-family: 'Georgia', serif;
+    color: #f4e9d8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #5c4436;
+    color: #f4e9d8;
+}
+
+thead th {
+    background-color: #4a362e;
+    text-align: center;
+    font-weight: bold;
+}
+
+td.summary {
+    text-align: justify;
+}
+
+tr:nth-child(even) {
+    background-color: #342620;
+}
+
+tr:nth-child(odd) {
+    background-color: #3e2d26;
+}
+
+tr:hover {
+    background-color: #523b31;
+}
+
+
+.book-actions {
+    text-align: center;
+}
+
+.book-actions a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    margin: 4px;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.25s ease-in-out;
+}
+
+.book-actions .btn-details {
+    background-color: #6c757d;
+}
+.book-actions .btn-details:hover {
+    background-color: #5a6268;
+}
+
+.book-actions .btn-modify {
+    background-color: #17a2b8;
+}
+.book-actions .btn-modify:hover {
+    background-color: #117a8b;
+}
+
+.book-actions .btn-delete {
+    background-color: #dc3545;
+}
+.book-actions .btn-delete:hover {
+    background-color: #bd2130;
+}

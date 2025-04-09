@@ -1,0 +1,73 @@
+body.legal-mentions-page {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #cfb193;
+    background-image: url('../../img/vintage-concrete.png');
+}
+
+.legal-mentions-page #home {
+    margin: 40px auto;
+    max-width: 90%;
+    width: 800px;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.legal-mentions-page h1 {
+    font-size: 2rem;
+    color: #444;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.legal-mentions-page h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.legal-mentions-page p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.legal-mentions-page section {
+    margin-top: 25px;
+}
+
+.legal-mentions-page .content {
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .legal-mentions-page #home {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .legal-mentions-page h1 {
+        font-size: 1.8rem;
+    }
+
+    .legal-mentions-page h2 {
+        font-size: 1.3rem;
+    }
+
+    .legal-mentions-page p {
+        font-size: 0.95rem;
+    }
+}
+
+.titles {
+    font-weight: bold;
+}
+
+.italic {
+     font-style: italic;
+ }
