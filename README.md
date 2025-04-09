@@ -28,14 +28,12 @@
 
 - Autres :
 
-- [ ] À compléter, si besoin
+- [ ] À compléter
 
 ## Difficultés rencontrées et solutions
 
-À compléter
+- À compléter
 
 ## Bilan des acquis
 
-- À compléter
-- À compléter
 - À compléter
