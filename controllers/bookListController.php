@@ -1,6 +1,6 @@
 <?php
 
-    require_once('./models/bookListManager.php');
+    require_once('./models/bookManager.php');
 
     $allBooks = getAllBooks();
 

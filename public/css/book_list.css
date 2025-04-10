@@ -127,3 +127,31 @@ tr:hover {
 .book-actions .btn-delete:hover {
     background-color: #bd2130;
 }
+
+.add-book-btn {
+    display: inline-block;
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #45a54a;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+.add-book-btn:hover {
+    background-color: #37803a;
+}
+
+.add-book-btn a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+.add-book-btn a:hover {
+    cursor: pointer;
+}
+
