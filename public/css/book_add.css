@@ -1,0 +1,117 @@
+body.book-add-page {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #cfb193;
+    background-image: url('../../img/vintage-concrete.png');
+}
+
+.book-add-page .form-wrapper {
+    margin: 40px auto;
+    max-width: 90%;
+    width: 800px;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-add-page h1 {
+    font-size: 2rem;
+    color: #444;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.book-add-page .form-group {
+    margin-bottom: 20px;
+}
+
+.book-add-page label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.book-add-page .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.book-add-page .btn {
+    background-color: #45a54a;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.book-add-page .btn:hover {
+    background-color: #37803a;
+}
+
+.book-add-page .alert-alert {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.book-add-page .alert-alert.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.book-add-page .alert-alert.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+@media (max-width: 768px) {
+    .book-add-page .form-wrapper {
+        padding: 20px;
+        width: 95%;
+    }
+
+    .book-add-page h1 {
+        font-size: 1.8rem;
+    }
+}
+
+.return-btn {
+    display: inline-block;
+    position: fixed;
+    bottom: 8%;
+    right: 4%;
+    padding: 4px 8px;
+    background-color: #8b5e3c;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+.return-btn:hover {
+    background-color: #72492f;
+}
+
+.return-btn a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+.return-btn a:hover {
+    cursor: pointer;
+}
