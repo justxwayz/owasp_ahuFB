@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./public/css/home.css">
     <link rel="stylesheet" href="./public/css/book_list.css">
     <link rel="stylesheet" href="./public/css/book_add.css">
+    <link rel="stylesheet" href="./public/css/illustration_list.css">
     <link rel="stylesheet" href="./public/css/legal_mentions.css">
 </head>
 

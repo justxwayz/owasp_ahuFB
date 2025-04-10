@@ -36,6 +36,13 @@ const AVAILABLE_ROUTES = [
             'description' => 'Deleting a book',
         ]
     ],
+    "illustration_list" => [
+        'controllers' => 'illustrationListController.php',
+        "SEO" => [
+            'title' => 'Illustrations',
+            'description' => 'Illustrations list',
+        ]
+    ],
     "terms_of_use" => [
         'controllers' => 'legalMentionsController.php',
         "SEO" => [
